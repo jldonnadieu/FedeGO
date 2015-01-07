@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interaction" version="3">
+  <DEPS>
+    <ID name="Interaction" mc="Interaction" uid="eb387b50-90dd-410c-8ef5-aa2349d34f35"/>
+    <COMPID name="Organisation d'une compétition" mc="SequenceDiagram" uid="1a51ede0-15c7-4170-a409-86afbfa16bec"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Interaction" mc="Interaction" uid="eb387b50-90dd-410c-8ef5-aa2349d34f35"/>
+    <PID name="fedego" mc="Package" uid="35c6534d-ba02-4218-98a5-8c2196c83588"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Interaction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="45f971a3-4f1e-4550-b24f-d9076621774f"/>
+          <PID name="Interaction" mc="Interaction" uid="eb387b50-90dd-410c-8ef5-aa2349d34f35"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Organisation d'une compétition" mc="SequenceDiagram" uid="1a51ede0-15c7-4170-a409-86afbfa16bec"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

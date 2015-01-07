@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FedeGO" version="3">
+  <DEPS>
+    <ID name="FedeGO" mc="Project" uid="2a0f1171-f4dd-418d-8d39-4eba87ffe5cf"/>
+    <COMPID name="FedeGO" mc="DiagramSet" uid="3f20076a-59f7-440e-afbb-417d5ec0f6c1"/>
+    <COMPID name="fedego" mc="Package" uid="35c6534d-ba02-4218-98a5-8c2196c83588"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="FedeGO" mc="Project" uid="2a0f1171-f4dd-418d-8d39-4eba87ffe5cf"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[FedeGO]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="FedeGO" mc="DiagramSet" uid="3f20076a-59f7-440e-afbb-417d5ec0f6c1"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="fedego" mc="Package" uid="35c6534d-ba02-4218-98a5-8c2196c83588"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

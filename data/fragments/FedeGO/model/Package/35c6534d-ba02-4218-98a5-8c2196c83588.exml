@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fedego" version="3">
+  <DEPS>
+    <ID name="fedego" mc="Package" uid="35c6534d-ba02-4218-98a5-8c2196c83588"/>
+    <COMPID name="Consulter" mc="UseCase" uid="c1948162-d91c-484f-8164-b8cd491852f9"/>
+    <COMPID name="Consulter les compétitions et les résultats" mc="UseCaseDiagram" uid="9a012b18-cb8f-454c-95af-04f48bc3834f"/>
+    <COMPID name="Consulter les compétitions qui n'ont pas encore été jouées" mc="UseCase" uid="267efeaa-5642-4bea-aee6-20947683e301"/>
+    <COMPID name="Identification" mc="UseCase" uid="4ea646dd-8229-4454-b325-1f6f6a23b125"/>
+    <COMPID name="Interaction" mc="Interaction" uid="eb387b50-90dd-410c-8ef5-aa2349d34f35"/>
+    <COMPID name="Interaction1" mc="Interaction" uid="3ee016fe-d1fe-451e-a091-aa6db1b1c979"/>
+    <COMPID name="Modifier le compte" mc="UseCaseDiagram" uid="672a7074-c27d-477e-b702-bbc002761833"/>
+    <COMPID name="Organisation des compétitions" mc="UseCase" uid="4a72263e-2500-45b1-a631-f2e1f807f32d"/>
+    <COMPID name="Organisation des compétitions" mc="UseCaseDiagram" uid="59108a15-a6c4-4b9a-b215-648c237a74e5"/>
+    <COMPID name="Par compétition" mc="UseCase" uid="14fe84c3-7313-4671-88ee-772b1825b024"/>
+    <COMPID name="Participer à des compétitions" mc="UseCaseDiagram" uid="b9e1b686-8994-421d-9ef5-6eb0043c08a8"/>
+    <COMPID name="S'identifier" mc="UseCase" uid="7f9d12a2-d84a-45cd-ac6b-90458942624f"/>
+    <COMPID name="S'inscrire" mc="UseCase" uid="5ad6b167-35db-4ce9-a250-9b2598ccfd9b"/>
+    <COMPID name="club" mc="Actor" uid="b684f62a-5e90-4955-975a-149b48c776a8"/>
+    <COMPID name="consulter les compétitions et les résultats" mc="UseCase" uid="72d92afa-e311-409d-b018-152f97aac2e7"/>
+    <COMPID name="créer une compétition" mc="UseCase" uid="59716231-62cf-4ae3-84b3-b4fae7f1948c"/>
+    <COMPID name="fedego Use Case diagram" mc="UseCaseDiagram" uid="9872a7a1-b229-48e6-8baf-22e589d1f051"/>
+    <COMPID name="fermer les inscriptions" mc="UseCase" uid="954157f9-d074-4747-9e39-d9274ac3ba5e"/>
+    <COMPID name="fédés" mc="Actor" uid="00f43f1b-34d3-4c0a-97da-da3b88a8783b"/>
+    <COMPID name="identification" mc="UseCase" uid="4eb3228c-8cb6-4b3d-a026-116ead792d2f"/>
+    <COMPID name="joueur" mc="Actor" uid="cb402b99-838a-49bf-8ca0-6766d210a0fc"/>
+    <COMPID name="les classements" mc="UseCase" uid="98dbb960-fd17-4eb8-a03e-a2e0cbef8732"/>
+    <COMPID name="modifier" mc="UseCase" uid="469d5227-523b-406a-8f8b-c086c4dd4311"/>
+    <COMPID name="modifier la compétition" mc="UseCase" uid="5dbbe066-d696-4e13-8356-98537a5547c8"/>
+    <COMPID name="modifier le compte" mc="UseCase" uid="a3b362c1-8131-4c49-9471-4eed67ff10fd"/>
+    <COMPID name="ouvrir les inscriptions" mc="UseCase" uid="c901c7b9-bd54-4216-817d-978f67d2ab64"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="56b2efae-ed9a-4244-8d8c-7034f6711ca5"/>
+    <COMPID name="par club" mc="UseCase" uid="e7cc9fab-eaa0-4114-9876-c9f652c37a73"/>
+    <COMPID name="par joueur" mc="UseCase" uid="8166593d-ad3c-46e4-acac-c7696f629ecc"/>
+    <COMPID name="par pays" mc="UseCase" uid="bc2595a1-de5a-4d03-b3aa-2bbd7a0d1af8"/>
+    <COMPID name="participer à des compétitions" mc="UseCase" uid="146ab400-a20c-4b89-bf26-614eae2af264"/>
+    <COMPID name="public" mc="Actor" uid="74c2c18d-1b7a-446c-bfd0-16b0d8c3a60e"/>
+    <COMPID name="publier les résultats" mc="UseCase" uid="dae6627a-8c31-419f-864a-98a16a65867b"/>
+    <COMPID name="s'identifier" mc="UseCase" uid="dc2a3e5f-0419-442f-a1f4-9d2e5b28c54f"/>
+    <COMPID name="se désinscrire" mc="UseCase" uid="31b70635-f9f9-4195-bfe4-cc4f7600dc9a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="fedego" mc="Package" uid="35c6534d-ba02-4218-98a5-8c2196c83588"/>
+    <PID name="FedeGO" mc="Project" uid="2a0f1171-f4dd-418d-8d39-4eba87ffe5cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fedego]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Interaction" uid="eb387b50-90dd-410c-8ef5-aa2349d34f35"/>
+        <COMPID name="Interaction1" mc="Interaction" uid="3ee016fe-d1fe-451e-a091-aa6db1b1c979"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="fédés" mc="Actor" uid="00f43f1b-34d3-4c0a-97da-da3b88a8783b"/>
+        <COMPID name="club" mc="Actor" uid="b684f62a-5e90-4955-975a-149b48c776a8"/>
+        <COMPID name="joueur" mc="Actor" uid="cb402b99-838a-49bf-8ca0-6766d210a0fc"/>
+        <COMPID name="public" mc="Actor" uid="74c2c18d-1b7a-446c-bfd0-16b0d8c3a60e"/>
+        <COMPID name="modifier le compte" mc="UseCase" uid="a3b362c1-8131-4c49-9471-4eed67ff10fd"/>
+        <COMPID name="consulter les compétitions et les résultats" mc="UseCase" uid="72d92afa-e311-409d-b018-152f97aac2e7"/>
+        <COMPID name="participer à des compétitions" mc="UseCase" uid="146ab400-a20c-4b89-bf26-614eae2af264"/>
+        <COMPID name="identification" mc="UseCase" uid="4eb3228c-8cb6-4b3d-a026-116ead792d2f"/>
+        <COMPID name="créer une compétition" mc="UseCase" uid="59716231-62cf-4ae3-84b3-b4fae7f1948c"/>
+        <COMPID name="ouvrir les inscriptions" mc="UseCase" uid="c901c7b9-bd54-4216-817d-978f67d2ab64"/>
+        <COMPID name="fermer les inscriptions" mc="UseCase" uid="954157f9-d074-4747-9e39-d9274ac3ba5e"/>
+        <COMPID name="modifier la compétition" mc="UseCase" uid="5dbbe066-d696-4e13-8356-98537a5547c8"/>
+        <COMPID name="publier les résultats" mc="UseCase" uid="dae6627a-8c31-419f-864a-98a16a65867b"/>
+        <COMPID name="S'inscrire" mc="UseCase" uid="5ad6b167-35db-4ce9-a250-9b2598ccfd9b"/>
+        <COMPID name="Identification" mc="UseCase" uid="4ea646dd-8229-4454-b325-1f6f6a23b125"/>
+        <COMPID name="se désinscrire" mc="UseCase" uid="31b70635-f9f9-4195-bfe4-cc4f7600dc9a"/>
+        <COMPID name="s'identifier" mc="UseCase" uid="dc2a3e5f-0419-442f-a1f4-9d2e5b28c54f"/>
+        <COMPID name="modifier" mc="UseCase" uid="469d5227-523b-406a-8f8b-c086c4dd4311"/>
+        <COMPID name="Consulter les compétitions qui n'ont pas encore été jouées" mc="UseCase" uid="267efeaa-5642-4bea-aee6-20947683e301"/>
+        <COMPID name="Consulter" mc="UseCase" uid="c1948162-d91c-484f-8164-b8cd491852f9"/>
+        <COMPID name="Par compétition" mc="UseCase" uid="14fe84c3-7313-4671-88ee-772b1825b024"/>
+        <COMPID name="les classements" mc="UseCase" uid="98dbb960-fd17-4eb8-a03e-a2e0cbef8732"/>
+        <COMPID name="par joueur" mc="UseCase" uid="8166593d-ad3c-46e4-acac-c7696f629ecc"/>
+        <COMPID name="par club" mc="UseCase" uid="e7cc9fab-eaa0-4114-9876-c9f652c37a73"/>
+        <COMPID name="par pays" mc="UseCase" uid="bc2595a1-de5a-4d03-b3aa-2bbd7a0d1af8"/>
+        <COMPID name="S'identifier" mc="UseCase" uid="7f9d12a2-d84a-45cd-ac6b-90458942624f"/>
+        <COMPID name="Organisation des compétitions" mc="UseCase" uid="4a72263e-2500-45b1-a631-f2e1f807f32d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="56b2efae-ed9a-4244-8d8c-7034f6711ca5"/>
+        <COMPID name="fedego Use Case diagram" mc="UseCaseDiagram" uid="9872a7a1-b229-48e6-8baf-22e589d1f051"/>
+        <COMPID name="Organisation des compétitions" mc="UseCaseDiagram" uid="59108a15-a6c4-4b9a-b215-648c237a74e5"/>
+        <COMPID name="Participer à des compétitions" mc="UseCaseDiagram" uid="b9e1b686-8994-421d-9ef5-6eb0043c08a8"/>
+        <COMPID name="Modifier le compte" mc="UseCaseDiagram" uid="672a7074-c27d-477e-b702-bbc002761833"/>
+        <COMPID name="Consulter les compétitions et les résultats" mc="UseCaseDiagram" uid="9a012b18-cb8f-454c-95af-04f48bc3834f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
