@@ -2,6 +2,8 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fedego" version="3">
   <DEPS>
     <ID name="fedego" mc="Package" uid="35c6534d-ba02-4218-98a5-8c2196c83588"/>
+    <COMPID name="Activity" mc="Activity" uid="b43ce3ea-d294-4015-a612-46201c99c019"/>
+    <COMPID name="Activity Organisation" mc="Activity" uid="c2bbc111-eebf-406e-b81d-6f0ab187f80e"/>
     <COMPID name="Consulter" mc="UseCase" uid="c1948162-d91c-484f-8164-b8cd491852f9"/>
     <COMPID name="Consulter les compétitions et les résultats" mc="UseCaseDiagram" uid="9a012b18-cb8f-454c-95af-04f48bc3834f"/>
     <COMPID name="Consulter les compétitions qui n'ont pas encore été jouées" mc="UseCase" uid="267efeaa-5642-4bea-aee6-20947683e301"/>
@@ -15,6 +17,7 @@
     <COMPID name="Participer à des compétitions" mc="UseCaseDiagram" uid="b9e1b686-8994-421d-9ef5-6eb0043c08a8"/>
     <COMPID name="S'identifier" mc="UseCase" uid="7f9d12a2-d84a-45cd-ac6b-90458942624f"/>
     <COMPID name="S'inscrire" mc="UseCase" uid="5ad6b167-35db-4ce9-a250-9b2598ccfd9b"/>
+    <COMPID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
     <COMPID name="club" mc="Actor" uid="b684f62a-5e90-4955-975a-149b48c776a8"/>
     <COMPID name="consulter les compétitions et les résultats" mc="UseCase" uid="72d92afa-e311-409d-b018-152f97aac2e7"/>
     <COMPID name="créer une compétition" mc="UseCase" uid="59716231-62cf-4ae3-84b3-b4fae7f1948c"/>
@@ -22,6 +25,7 @@
     <COMPID name="fermer les inscriptions" mc="UseCase" uid="954157f9-d074-4747-9e39-d9274ac3ba5e"/>
     <COMPID name="fédés" mc="Actor" uid="00f43f1b-34d3-4c0a-97da-da3b88a8783b"/>
     <COMPID name="identification" mc="UseCase" uid="4eb3228c-8cb6-4b3d-a026-116ead792d2f"/>
+    <COMPID name="inscription joueur" mc="Interaction" uid="ed32ce4f-932c-483c-a1b6-1ad083fb187c"/>
     <COMPID name="joueur" mc="Actor" uid="cb402b99-838a-49bf-8ca0-6766d210a0fc"/>
     <COMPID name="les classements" mc="UseCase" uid="98dbb960-fd17-4eb8-a03e-a2e0cbef8732"/>
     <COMPID name="modifier" mc="UseCase" uid="469d5227-523b-406a-8f8b-c086c4dd4311"/>
@@ -54,6 +58,10 @@
       <COMP relation="OwnedBehavior">
         <COMPID name="Interaction" mc="Interaction" uid="eb387b50-90dd-410c-8ef5-aa2349d34f35"/>
         <COMPID name="Interaction1" mc="Interaction" uid="3ee016fe-d1fe-451e-a091-aa6db1b1c979"/>
+        <COMPID name="inscription joueur" mc="Interaction" uid="ed32ce4f-932c-483c-a1b6-1ad083fb187c"/>
+        <COMPID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+        <COMPID name="Activity Organisation" mc="Activity" uid="c2bbc111-eebf-406e-b81d-6f0ab187f80e"/>
+        <COMPID name="Activity" mc="Activity" uid="b43ce3ea-d294-4015-a612-46201c99c019"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="fédés" mc="Actor" uid="00f43f1b-34d3-4c0a-97da-da3b88a8783b"/>

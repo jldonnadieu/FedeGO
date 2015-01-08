@@ -7,7 +7,7 @@
     <ID name="Organisation d'une compétition" mc="SequenceDiagram" uid="1a51ede0-15c7-4170-a409-86afbfa16bec"/>
     <PID name="Interaction" mc="Interaction" uid="eb387b50-90dd-410c-8ef5-aa2349d34f35"/>
     <ATTRIBUTES>
-      <ATT name="UiDataVersion">346</ATT>
+      <ATT name="UiDataVersion">450</ATT>
       <ATT name="UiData"><![CDATA[eJztU11P2zAU/SuWX/ZUN9kKbFIoggZViIyidiDxhG7i28zMsTvbgeYn8Tv2x+b0A2inRkFC8LInW8f33HPv9bnR0byQ5B6NFVod0pAFlBz1o1F6h5kjgnuIElfN8JBqk7NCc5RCMy4gN1Aw5MJpwyz+LlFlyFBigcrZJ2QdOCwmKyReIpQUcKfN7ZN0QPvRpdEzNK4iCgqvKKHSpYvBgX+7BlniqhRVSkm7/ai7JvxDnbhKIt1o5HNTI7aOtyzTBtmS26K+AdgMOPK12OncjXHaUuXCp1gxCc5dnJ75GhfX+sJxCqV0W012l+00NW5QgkPu69ia2fcaIvc14sez+RkkhL0QOQadcC876PTCg6ADveBb5+s+TNMphPspZs0Dl2DdudIPKoEU5Zb2xBmhctofmRyUsOD8RAn/VCokmS5mfx6dqKGouyA1tqclnqmBJ2m74OxQapFq8FNIbrDOkAhbD3V17GQkQv2y7cNP8tjAgy8ngQrNphm/NG7Veov4km+ZrDP4JdpI+D4b9DrWR9lP8B1GiIcsOb45Hd+eHA/Oh+PR1UX8Nt5osYsvf+vZNy9c0Pvvgnd2wY/R5Vt//86nv5QpkuY=]]></ATT>
       <ATT name="PdeProperties"></ATT>
       <ATT name="Name"><![CDATA[Organisation d'une compétition]]></ATT>
