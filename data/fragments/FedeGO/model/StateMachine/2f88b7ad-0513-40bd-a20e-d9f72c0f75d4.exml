@@ -1,0 +1,386 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="State Machine" version="3">
+  <DEPS>
+    <ID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+    <COMPID name="Organisation d'une compétition(V1)" mc="StateMachineDiagram" uid="f75dc054-300d-467f-ad9a-2d468f6d73fe"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+    <PID name="fedego" mc="Package" uid="35c6534d-ba02-4218-98a5-8c2196c83588"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[State Machine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Region" uid="8b13c5ea-1518-4453-81ff-f06e76ec5673"/>
+          <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID name="Initial State" mc="InitialPseudoState" uid="d3e51b67-ab2a-41ea-9174-8ef873ad19ea"/>
+                <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Initial State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="2ce34b8e-4fc3-4315-a4a3-12bc6bd13a66"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="compétition inexistante" mc="State" uid="b18a9152-8dd7-4e2f-8459-d9a9bb143f28"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Final State" mc="FinalState" uid="575076c5-f7d7-434c-9e5e-5ad60f843bae"/>
+                <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Final State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="compétition inexistante" mc="State" uid="b18a9152-8dd7-4e2f-8459-d9a9bb143f28"/>
+                <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[compétition inexistante]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="6e175e36-dc0e-4eee-ae6a-9bf530f5cfef"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"><![CDATA[créer compétition]]></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Compétition créée(fermée)" mc="State" uid="78fa8da4-38c3-4bcb-afc8-9da60f5c9ba2"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Compétition créée(fermée)" mc="State" uid="78fa8da4-38c3-4bcb-afc8-9da60f5c9ba2"/>
+                <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Compétition créée(fermée)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="ace2a2a8-f906-447a-9683-75dcaddb0d94"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"><![CDATA[modifier]]></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Compétition créée(fermée)" mc="State" uid="78fa8da4-38c3-4bcb-afc8-9da60f5c9ba2"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Transition" uid="1c882278-a36e-471b-b6b9-5c2e361cb776"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"><![CDATA[Ouvrir]]></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Inscription ouverte" mc="State" uid="b5e7f83b-1810-4e28-ad6a-af226e3d2e2b"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Transition" uid="28d36d42-61ea-40c4-8e60-34eb9ca87bf9"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"><![CDATA[après la date de la compétition]]></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Compétition effectuée" mc="State" uid="e28c3896-1df3-48a2-8df7-6a69345c80e7"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Compétition effectuée" mc="State" uid="e28c3896-1df3-48a2-8df7-6a69345c80e7"/>
+                <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Compétition effectuée]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="7a707ba3-1ceb-4c8c-8a0a-89dc4fc8174e"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"><![CDATA[publication résultats]]></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Résultats  publiés" mc="State" uid="0accb73b-88c1-4018-bc5f-e7a611099fd2"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Inscription ouverte" mc="State" uid="b5e7f83b-1810-4e28-ad6a-af226e3d2e2b"/>
+                <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Inscription ouverte]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OwnedRegion">
+                    <OBJECT>
+                      <ID name="Region" mc="Region" uid="3aa860b0-09d4-485c-93a5-5fa7cae10dbb"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Region]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Sub">
+                          <OBJECT>
+                            <ID name="Joueur inscrit" mc="State" uid="fb7ccf2f-3e89-48c0-9288-acf32c21cac0"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Joueur inscrit]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Transition" uid="a6f3cd91-7441-40ce-8f35-a7c92d67ac6c"/>
+                                  <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[joueur se désincrit]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="joueur non inscrit" mc="State" uid="5a5cf550-1966-4c1e-978d-c4d1594379d6"/>
+                                        <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="joueur non inscrit" mc="State" uid="5a5cf550-1966-4c1e-978d-c4d1594379d6"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[joueur non inscrit]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Transition" uid="1ed91ac3-7d78-4f57-9946-bd5563b0ad67"/>
+                                  <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"><![CDATA[joueur s'inscrit]]></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Joueur inscrit" mc="State" uid="fb7ccf2f-3e89-48c0-9288-acf32c21cac0"/>
+                                        <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="56d21b2e-2e77-41bb-bd92-e552fd30658f"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"><![CDATA[Modifier]]></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Inscription ouverte" mc="State" uid="b5e7f83b-1810-4e28-ad6a-af226e3d2e2b"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition2" mc="Transition" uid="6cb46554-98aa-427f-8d6a-2d1158211e57"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"><![CDATA[fermer]]></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition2]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Compétition créée(fermée)" mc="State" uid="78fa8da4-38c3-4bcb-afc8-9da60f5c9ba2"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Résultats  publiés" mc="State" uid="0accb73b-88c1-4018-bc5f-e7a611099fd2"/>
+                <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Résultats  publiés]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="1f6ca22f-5290-48aa-b2f0-a69dfb536a90"/>
+                      <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Final State" mc="FinalState" uid="575076c5-f7d7-434c-9e5e-5ad60f843bae"/>
+                            <PID name="State Machine" mc="StateMachine" uid="2f88b7ad-0513-40bd-a20e-d9f72c0f75d4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Organisation d'une compétition(V1)" mc="StateMachineDiagram" uid="f75dc054-300d-467f-ad9a-2d468f6d73fe"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

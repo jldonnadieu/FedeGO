@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity" version="3">
+  <DEPS>
+    <ID name="Activity" mc="Activity" uid="b43ce3ea-d294-4015-a612-46201c99c019"/>
+    <COMPID name="Activity Activity diagram" mc="ActivityDiagram" uid="12221e25-eb3b-4fbe-97bf-8652925cc12b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Activity" mc="Activity" uid="b43ce3ea-d294-4015-a612-46201c99c019"/>
+    <PID name="fedego" mc="Package" uid="35c6534d-ba02-4218-98a5-8c2196c83588"/>
+    <ATTRIBUTES>
+      <ATT name="IsSingleExecution">false</ATT>
+      <ATT name="IsReadOnly">false</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Activity]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="04cd20bd-6342-45e0-beb1-17659d56a382"/>
+          <PID name="Activity" mc="Activity" uid="b43ce3ea-d294-4015-a612-46201c99c019"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Activity Activity diagram" mc="ActivityDiagram" uid="12221e25-eb3b-4fbe-97bf-8652925cc12b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

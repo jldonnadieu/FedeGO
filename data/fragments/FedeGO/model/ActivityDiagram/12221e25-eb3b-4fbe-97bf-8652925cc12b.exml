@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity Activity diagram" version="3">
+  <DEPS>
+    <ID name="Activity Activity diagram" mc="ActivityDiagram" uid="12221e25-eb3b-4fbe-97bf-8652925cc12b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Activity Activity diagram" mc="ActivityDiagram" uid="12221e25-eb3b-4fbe-97bf-8652925cc12b"/>
+    <PID name="Activity" mc="Activity" uid="b43ce3ea-d294-4015-a612-46201c99c019"/>
+    <ATTRIBUTES>
+      <ATT name="IsVertical">false</ATT>
+      <ATT name="UiDataVersion">60</ATT>
+      <ATT name="UiData"><![CDATA[eJztU9tO4zAQ/RXL73VpoFyktKg0qEIEWhUWaZ+QE0+7Zh27sqel+XscmnRpUaOshNiXffJoPGfOXM6El+tMkRVYJ43u0Q47ouSyH46TF0iRSOFdlGC+gB41ds4yI0BJw4Tkc8szBkKisYynKFcScwYKMtDotp4qcJQNSk+08VCS8Rdjn7fUR7QfTqxZgMWcaJ55RsVzs8SII/d/T1wtoSxFL5Wi7X7YrgCfoA+YK6A7jQR1jbgi3rHUWGAbbIP6htylXICoyK7XOIVZQ5Z7n6JEElhjlNz4Gt/NwhAw40uFe022N+3UNW5BcQTh69ib2V3hIqvC06N7yyCdIAg6EHRbkBwnrZNZAq2Ls2TWOj/tBhdBN007QVI/cMUd3mrzqmOegNrjfkAr9Zz2K1qyNcrJhO338NrGjIIbPTTZwjiJfiUHOBqkGv6SSlgoMsTSFeMsn4OIWOrfrnn41Tyy/NWXE/Mc7K4Mj2vvqbofscE7pooM/nx2En7P7fwd6l8JT4oDQohGLB78vJ4+Xw2Gt6Pp+Md99DXaaHCFH7f1RzcfVHDyXwXfrILH8eSr13/w6w0lbY9Y]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Activity Activity diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
